@@ -1,0 +1,1 @@
+python SimpleSims/SimInterface.py --platform_kinematics CHAIR
