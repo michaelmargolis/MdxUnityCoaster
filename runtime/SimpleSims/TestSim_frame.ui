@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>484</width>
+    <width>485</width>
     <height>337</height>
    </rect>
   </property>
@@ -21,7 +21,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>461</width>
+     <width>481</width>
      <height>331</height>
     </rect>
    </property>
@@ -247,10 +247,10 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>198</y>
+      <x>350</x>
+      <y>230</y>
       <width>111</width>
-      <height>111</height>
+      <height>91</height>
      </rect>
     </property>
     <property name="title">
@@ -288,7 +288,7 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QRadioButton" name="rb_m_inc">
+    <widget class="QRadioButton" name="rb_m_abs">
      <property name="enabled">
       <bool>true</bool>
      </property>
@@ -301,12 +301,12 @@
       </rect>
      </property>
      <property name="text">
-      <string>Incremental</string>
+      <string>Absolute</string>
      </property>
     </widget>
-    <widget class="QRadioButton" name="rb_m_abs">
+    <widget class="QRadioButton" name="rb_m_inc">
      <property name="enabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="geometry">
       <rect>
@@ -317,7 +317,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Absolute</string>
+      <string>Incremental</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
      </property>
     </widget>
    </widget>
@@ -327,14 +330,14 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>10</y>
-      <width>91</width>
-      <height>18</height>
+      <x>353</x>
+      <y>86</y>
+      <width>101</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Defer Move</string>
+     <string>Defer Movement</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -481,8 +484,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>40</y>
+      <x>360</x>
+      <y>10</y>
       <width>81</width>
       <height>23</height>
      </rect>
@@ -516,8 +519,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>80</y>
+      <x>360</x>
+      <y>40</y>
       <width>81</width>
       <height>23</height>
      </rect>
@@ -664,14 +667,14 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>270</y>
-      <width>251</width>
+      <x>340</x>
+      <y>110</y>
+      <width>131</width>
       <height>43</height>
      </rect>
     </property>
     <property name="title">
-     <string>Movement speed</string>
+     <string>Move speed</string>
     </property>
     <widget class="QLabel" name="label_15">
      <property name="enabled">
@@ -679,10 +682,10 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>220</x>
+       <x>100</x>
        <y>29</y>
-       <width>40</width>
-       <height>14</height>
+       <width>31</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="text">
@@ -695,9 +698,9 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>10</x>
        <y>20</y>
-       <width>194</width>
+       <width>111</width>
        <height>20</height>
       </rect>
      </property>
@@ -737,8 +740,8 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>140</y>
+      <x>360</x>
+      <y>160</y>
       <width>91</width>
       <height>51</height>
      </rect>
@@ -796,6 +799,19 @@
       </property>
      </item>
     </widget>
+   </widget>
+   <widget class="QLineEdit" name="txt_info">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>311</width>
+      <height>20</height>
+     </rect>
+    </property>
    </widget>
   </widget>
  </widget>
